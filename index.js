@@ -19,13 +19,13 @@ app.listen(port, () => {
 // })
 
 app.get("/", (req,res) => {
-    res.send("You Contacted root path");
+    res.send("You Contacted root path...");
 })
 app.get("/apple", (req,res) => {
-    res.send("You Contacted apple path");
+    res.send("You Contacted apple path...");
 })
 app.get("/banana", (req,res) => {
-    res.send("You Contacted banana path");
+    res.send("You Contacted banana path...");
 })
 app.get("/mango", (req,res) => {
     res.send("You Contacted mango path");
